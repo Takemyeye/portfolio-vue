@@ -46,7 +46,7 @@ html,body {
 
 
 h1 {
-  font-size: clamp(18px, 2vw, 40px);
+  font-size: clamp(20px, 2vw, 40px);
   color: var(--color-000);
   font-weight: 500;
 }
@@ -81,9 +81,8 @@ h3 {
   --text-font-weight: weight;
   --text-font-style: normal;
   --color-000: rgb(255, 255, 255);
-  --color-001: rgb(24, 24, 24);
-  --color-002: rgb(173, 173, 173);
-  --color-003: rgba(24, 24, 24, 0.795);
+  --color-001: rgb(15, 15, 15);
+  --color-002: rgb(214, 214, 214);
   --color-black: black;
 }
 </style>

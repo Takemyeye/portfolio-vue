@@ -1,10 +1,10 @@
 <template>
   <header>
-    <div class="leftHeader">
+    <div class="left-header">
       <h3><font-awesome-icon icon="code" /></h3>
       <h3>Oleh Bratok</h3>
     </div>
-    <div class="rightHeader">
+    <div class="right-header">
       <h5>About</h5>
       <h5>Projects</h5>
       <h5>Contact</h5>
@@ -23,11 +23,12 @@
     position: sticky;
     left: 0;
     top: 0;
-    width: 80%;
+    width: 100%;
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 10%;
     font-optical-sizing: var(--text-font-optical);
     font-family: var(--text-font-family); 
     font-weight: var(--text-font-weight);
@@ -35,14 +36,14 @@
     backdrop-filter: blur(4px);
   }
 
-  .leftHeader, .rightHeader {
+  .left-header, .right-header {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     gap: 1rem;
   }
-  
+
   h5 {
     position: relative;
     transition: 0.3s ease;

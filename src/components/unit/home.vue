@@ -1,16 +1,18 @@
 <template> 
   <main>
     <HeaderPanel/>
+    <TopBar/>
   </main>
 </template>
 
 <script>
-import HeaderPanel from './header/header.vue';
-
+import HeaderPanel from '@/components/header/header.vue';
+import TopBar from './topBar.vue'
   export default {
     name: 'HomePage',
     components: {
-      HeaderPanel
+      HeaderPanel,
+      TopBar,
     },
   }
 </script>
