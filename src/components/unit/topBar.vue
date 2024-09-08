@@ -1,14 +1,12 @@
 <template>
   <div class="topBar">
     <div class="left-panel">
-      <div class="container">
         <div class="experience">
           <h5>1 year of experience</h5>
         </div>
         <h1>Oleh Bratok</h1>
         <h3>Full Stack Developer</h3>
       </div>
-    </div>
     <div class="right-panel">
       <img src="" alt="">
     </div>
@@ -24,7 +22,7 @@
 <style scoped>
 
   .topBar {
-    width: 100%;
+    width: 80%;
     height: 40vh;
     padding: 5rem 0;
     display: flex;
@@ -35,11 +33,6 @@
   .left-panel, .right-panel {
     width: 40%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .container {
     display: flex;
     align-items: start;
     justify-content: center;

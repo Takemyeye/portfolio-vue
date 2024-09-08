@@ -2,15 +2,18 @@
   <main>
     <HeaderPanel/>
     <TopBar/>
+    <WorkExperience/>
   </main>
 </template>
 
 <script>
 import HeaderPanel from '@/components/header/header.vue';
-import TopBar from './topBar.vue'
+import WorkExperience from './workExperience.vue';
+import TopBar from './topBar.vue';
   export default {
     name: 'HomePage',
     components: {
+      WorkExperience,
       HeaderPanel,
       TopBar,
     },

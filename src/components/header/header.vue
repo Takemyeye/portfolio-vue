@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 10%;
+    gap: 30%;
     font-optical-sizing: var(--text-font-optical);
     font-family: var(--text-font-family); 
     font-weight: var(--text-font-weight);
