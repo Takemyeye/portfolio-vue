@@ -3,17 +3,20 @@
     <HeaderPanel/>
     <TopBar/>
     <WorkExperience/>
+    <SkillsBlock/>
   </main>
 </template>
 
 <script>
 import HeaderPanel from '@/components/header/header.vue';
 import WorkExperience from './workExperience.vue';
+import SkillsBlock from './skills.vue'
 import TopBar from './topBar.vue';
   export default {
     name: 'HomePage',
     components: {
       WorkExperience,
+      SkillsBlock,
       HeaderPanel,
       TopBar,
     },
