@@ -2,41 +2,32 @@
   <div class="featured">
     <h1>Featured Projects</h1>
     <div class="project-container">
-      <div class="project">
-        <img src="" alt="">
-        <div class="text">
-          <h3>Project 1</h3>
-          <h5>A web application built with React and Next.js, featuring a modern and responsive design.</h5>
-          <UiButton/>
-        </div>
-      </div>
-      <div class="project">
-        <img src="" alt="">
-        <div class="text">
-          <h3>Project 1</h3>
-          <h5>A web application built with React and Next.js, featuring a modern and responsive design.</h5>
-          <UiButton/>
-        </div>
-      </div>
-      <div class="project">
-        <img src="" alt="">
-        <div class="text">
-          <h3>Project 1</h3>
-          <h5>A web application built with React and Next.js, featuring a modern and responsive design.</h5>
-          <UiButton/>
-        </div>
-      </div>
+      <ProjectUnit 
+        :img="`img/soulSwap.png`"
+        text="Soul Swap" 
+        description="A full-stack web app using Vue, Vuex, and Express.js for a high-performance online store, offering a curated selection of unique artworks tailored to individual tastes."
+      />
+      <ProjectUnit 
+        :img="`img/belance.png`"
+        text="Belance" 
+        description="A web app built with React, Scss, and Redux for client communication and website creation, featuring a modern design and a template gallery for inspiration."
+      />
+      <ProjectUnit 
+        :img="`img/impactium.jpg`"
+        text="Impactium" 
+        description="A web app built using Next.js, PostgreSQL, and Prisma. The company organizes Dota 2 tournaments, offering a platform for teams and players to compete in challenging events."
+      />
     </div>
   </div>
 </template>
 
 <script> 
-import UiButton from '@/ui/btn.vue'
+import ProjectUnit from './component/project.vue'
 
   export default {
     name: 'FeaturedBlock',
     components: {
-      UiButton,
+      ProjectUnit
     }
   }
 </script>
@@ -56,12 +47,5 @@ import UiButton from '@/ui/btn.vue'
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
-  }
-  .project, .text {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1rem;
   }
 </style>
