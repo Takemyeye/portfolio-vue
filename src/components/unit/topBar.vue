@@ -57,4 +57,26 @@
     height: 100%;
     object-fit: contain;
   }
+
+  h1 {
+    animation: shadow 3s ease infinite;
+  }
+
+  @keyframes shadow {
+    0% {
+      text-shadow: 0px 0px 50px hsl(210, 100%, 66%);
+    }
+    25% {
+      text-shadow: 0px 0px 50px hsl(275, 80%, 71%);
+    }
+    50% {
+      text-shadow: 0px 0px 50px hsl(174, 90%, 41%);
+    }
+    75% {
+      text-shadow: 0px 0px 50px hsl(358, 100%, 69%);
+    }
+    100% {
+      text-shadow: 0px 0px 50px hsl(210, 100%, 66%);
+    }
+  }
 </style>

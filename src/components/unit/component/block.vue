@@ -1,6 +1,6 @@
 <template>
   <div class="block">
-    <UiBadge :styleBadge="badge" :skill="text"/>
+    <UiBadge style="font-size: medium;" :styleBadge="badge" :skill="text"/>
     <div class="wrapper">
       <slot></slot>
     </div>
@@ -33,7 +33,7 @@ import UiBadge from '@/ui/badge.vue'
   
   .block {
     width: 20%;
-    height: 160px;
+    min-height: 160px;
     display: flex;
     align-items: start;
     justify-content: start;

@@ -4,8 +4,10 @@
     <div class="container">
       <UiBlock :badge="`badge1`" text="Frontend">
         <UiBadge :styleBadge="`badge`" skill="React" />
+        <UiBadge :styleBadge="`badge`" skill="Redux" />
         <UiBadge :styleBadge="`badge`" skill="Next.js" />
         <UiBadge :styleBadge="`badge`" skill="Vue" />
+        <UiBadge :styleBadge="`badge`" skill="Vuex" />
         <UiBadge :styleBadge="`badge`" skill="Nuxt.js" />
         <UiBadge :styleBadge="`badge`" skill="TypeScript" />
         <UiBadge :styleBadge="`badge`" skill="JavaScript" />
@@ -18,7 +20,6 @@
         <UiBadge :styleBadge="`badge`" skill="Node.js" />
         <UiBadge :styleBadge="`badge`" skill="Express" />
         <UiBadge :styleBadge="`badge`" skill="PHP" />
-        <UiBadge :styleBadge="`badge`" skill="Json" />
       </UiBlock>
       <UiBlock :badge="`badge3`" text="Databases">
         <UiBadge :styleBadge="`badge`" skill="MongoDB" />
@@ -60,7 +61,7 @@ import UiBadge from '@/ui/badge.vue'
   .container {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     flex-direction: row;
   }

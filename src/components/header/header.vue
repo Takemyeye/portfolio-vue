@@ -34,6 +34,7 @@
     font-weight: var(--text-font-weight);
     font-style: var(--text-font-weight);
     backdrop-filter: blur(4px);
+    z-index: 1000;
   }
 
   .left-header, .right-header {

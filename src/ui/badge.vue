@@ -25,8 +25,7 @@
   .badge, .badge1, .badge2, .badge3, .badge4 {
     padding: 2px 6px;
     border-radius: 12px;
-    display: flex;
-    align-items: center;
+    text-align: center;
   }
 
   .badge:hover {
