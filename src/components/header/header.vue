@@ -33,7 +33,8 @@
     font-family: var(--text-font-family); 
     font-weight: var(--text-font-weight);
     font-style: var(--text-font-weight);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
+    background-color: rgba(15, 15, 15, 0.5);
     z-index: 1000;
   }
 
@@ -43,6 +44,7 @@
     justify-content: center;
     flex-direction: row;
     gap: 1rem;
+    
   }
 
   h5 {

@@ -5,11 +5,13 @@
     <WorkExperience/>
     <SkillsBlock/>
     <FeaturedBlock/>
-  </main>
+    <FooterPanel/>
+</main>
 </template>
 
 <script>
 import HeaderPanel from '@/components/header/header.vue';
+import FooterPanel from '@/components/footer/footer.vue';
 import WorkExperience from './workExperience.vue';
 import FeaturedBlock from './featuredBlock.vue';
 import SkillsBlock from './skills.vue';
@@ -21,6 +23,7 @@ import TopBar from './topBar.vue';
       FeaturedBlock,
       SkillsBlock,
       HeaderPanel,
+      FooterPanel,
       TopBar,
     },
   }
