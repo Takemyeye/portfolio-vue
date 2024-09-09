@@ -14,6 +14,9 @@
       <a href="https://www.instagram.com/takemyeyegit/">
         <h3><font-awesome-icon icon="fab fa-instagram" /></h3>
       </a>
+      <a href="">
+        <h3><font-awesome-icon icon="fa-brands fa-linkedin" /></h3>
+      </a>
     </div>
   </footer>
 </template>

@@ -4,7 +4,7 @@
     <div class="text">
       <h3>{{ text }}</h3>
       <h5>{{ description }}</h5>
-      <UiButton/>
+      <UiButton text="View More" :hoverColor="`hsl(358, 100%, 69%)`" :hoverBgColor="`hsl(357, 46%, 16%)`" />
     </div>
   </div>
 </template>

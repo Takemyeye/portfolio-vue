@@ -5,7 +5,9 @@
       <h3>Oleh Bratok</h3>
     </div>
     <div class="right-header">
-      <h5>About</h5>
+      <router-link to="/about">
+        <h5>About</h5>
+      </router-link>
       <h5>Projects</h5>
       <h5>Contact</h5>
     </div>

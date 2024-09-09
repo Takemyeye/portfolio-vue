@@ -18,6 +18,7 @@
       </UiBlock>
       <UiBlock :badge="`badge2`" text="Backend">
         <UiBadge :styleBadge="`badge`" skill="Node.js" />
+        <UiBadge :styleBadge="`badge`" skill="Next.js" />
         <UiBadge :styleBadge="`badge`" skill="Express" />
         <UiBadge :styleBadge="`badge`" skill="PHP" />
       </UiBlock>
@@ -29,6 +30,7 @@
       <UiBlock :badge="`badge4`" text="Tools">
         <UiBadge :styleBadge="`badge`" skill="Git" />
         <UiBadge :styleBadge="`badge`" skill="GitHub" />
+        <UiBadge :styleBadge="`badge`" skill="VSCode" />
         <UiBadge :styleBadge="`badge`" skill="REST API" />
       </UiBlock>
     </div>

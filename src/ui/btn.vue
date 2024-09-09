@@ -1,51 +1,91 @@
 <template>
-  <button>
-      <span class="circle1"></span>
-      <span class="circle2"></span>
-      <span class="circle3"></span>
-      <span class="circle4"></span>
-      <span class="circle5"></span>
-      <span class="text">
-        <div class="t">View More</div>
-        <div class="t"><font-awesome-icon icon="arrow-right" /></div>
-      </span>
+  <button
+    :style="{ 
+      '--hover-color': hoverColor, 
+      '--text-color': textColor, 
+      '--bg-color': bgColor,
+      '--hover-bg-color': hoverBgColor
+    }"
+  >
+    <span class="circle1"></span>
+    <span class="circle2"></span>
+    <span class="circle3"></span>
+    <span class="circle4"></span>
+    <span class="circle5"></span>
+    <span class="text">
+      <div class="t">{{ text }}</div>
+      <div v-if="showIcon" class="t">
+        <font-awesome-icon icon="arrow-right" />
+      </div>
+    </span>
   </button>
 </template>
 
 <script>
-  export default {
-    name: 'UiButton'
+export default {
+  name: 'UiButton',
+  props: {
+    text: {
+      type: String,
+      required: true,
+      default: 'View More',
+    },
+    bgColor: {
+      type: String,
+      default: 'transparent',
+    },
+    textColor: {
+      type: String,
+      default: '#FFFFFF',
+    },
+    hoverColor: {
+      type: String,
+      default: 'var(--color-002)',
+    },
+    hoverBgColor: {
+      type: String,
+      default: 'hsl(214, 59%, 15%)',
+    },
+    showIcon: {
+      type: Boolean,
+      default: true,
+    }
   }
+};
 </script>
 
 <style scoped>
 button {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
   padding: 0.5rem;
-  background-color: transparent;
-  color: var(--color-002);
+  background-color: var(--bg-color);
+  color: var(--text-color);
   border: none;
-  border-radius: .6rem;
+  border-radius: 0.6rem;
   position: relative;
   cursor: pointer;
   overflow: hidden;
-  transition: .6s ease;
-}
-button:hover {
-  color: hsl(210, 100%, 66%);
+  transition: 0.6s ease;
 }
 
-button span:not(:nth-child(6)) {
+button:hover {
+  color: var(--hover-color);
+  transition: 0.3s ease;
+}
+
+span.circle1,
+span.circle2,
+span.circle3,
+span.circle4,
+span.circle5 {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   height: 30px;
   width: 30px;
-  background-color: hsl(214, 59%, 15%);
+  background-color: var(--hover-bg-color);
   border-radius: 50%;
-  transition: .6s ease;
+  transition: 0.6s ease;
 }
 
 .text {
@@ -74,7 +114,7 @@ button span:nth-child(2) {
 }
 
 button span:nth-child(3) {
-  transform: translate(-.2em, 1.8em);
+  transform: translate(-0.2em, 1.8em);
 }
 
 button span:nth-child(4) {

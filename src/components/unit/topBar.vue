@@ -8,14 +8,25 @@
         <h3>Full Stack Developer</h3>
       </div>
     <div class="right-panel">
-      <img src="img/abst.png" alt="">
+      <img src="img/abstract.png" alt="">
+      <UiButton 
+        text="Download CV" 
+        :hoverColor="`hsl(210, 100%, 66%)`" 
+        :hoverBgColor="`hsl(214, 59%, 15%)`" 
+        :showIcon="false"
+      />
     </div>
   </div>
 </template>
 
 <script>
+import UiButton from '@/ui/btn.vue'
+
   export default {
-    name: 'TopBar'
+    name: 'TopBar',
+    components: {
+      UiButton
+    }
   }
 </script>
 
@@ -39,6 +50,10 @@
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
+  }
+
+  .right-panel {
+    align-items: center;
   }
 
   .experience {
