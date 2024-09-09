@@ -48,4 +48,15 @@ import ProjectUnit from './component/project.vue'
     grid-template-rows: auto;
     gap: 2rem;
   }
+  
+  @media all and (max-width: 768px) {
+    .project-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media all and (max-width: 570px) {
+    .project-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 </style>

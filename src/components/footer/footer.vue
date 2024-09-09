@@ -5,9 +5,15 @@
       <h3>Oleh Bratok</h3>
     </div>
     <div class="right-footer">
-      <h3><font-awesome-icon icon="fa-brands fa-github" /></h3>
-      <h3><font-awesome-icon icon="fa-brands fa-telegram" /></h3>
-      <h3><font-awesome-icon icon="fab fa-instagram" /></h3>
+      <a href="https://github.com/Takemyeye">
+        <h3><font-awesome-icon icon="fa-brands fa-github" /></h3>
+      </a>
+      <a href="https://t.me/+_A-d1T6L8a02NzU0">
+        <h3><font-awesome-icon icon="fa-brands fa-telegram" /></h3>
+      </a>
+      <a href="https://www.instagram.com/takemyeyegit/">
+        <h3><font-awesome-icon icon="fab fa-instagram" /></h3>
+      </a>
     </div>
   </footer>
 </template>
@@ -35,4 +41,11 @@
     flex-direction: row;
     gap: 1rem;
   }
+
+  @media all and ( max-width: 768px ) {
+    footer {
+      gap: 5%;
+    }
+  }
+
 </style>

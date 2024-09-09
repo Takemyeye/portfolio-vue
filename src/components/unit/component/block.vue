@@ -32,7 +32,7 @@ import UiBadge from '@/ui/badge.vue'
 <style scoped>
   
   .block {
-    width: 20%;
+    width: 100%;
     min-height: 160px;
     display: flex;
     align-items: start;

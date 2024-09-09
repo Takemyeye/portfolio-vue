@@ -8,7 +8,7 @@
         <h3>Full Stack Developer</h3>
       </div>
     <div class="right-panel">
-      <img src="" alt="">
+      <img src="img/abst.png" alt="">
     </div>
   </div>
 </template>
@@ -23,11 +23,12 @@
 
   .topBar {
     width: 80%;
-    height: 40vh;
+    min-height: 40vh;
     padding: 5rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
   }
 
   .left-panel, .right-panel {
@@ -54,7 +55,7 @@
   }
   img {
     width: 100%;
-    height: 100%;
+    height: 400px;
     object-fit: contain;
   }
 
@@ -77,6 +78,23 @@
     }
     100% {
       text-shadow: 0px 0px 50px hsl(210, 100%, 66%);
+    }
+  }
+
+  @media all and (max-width: 768px ) {
+    .topBar {
+      align-items: start;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .left-panel {
+      width: 100%;
+    }
+
+    .right-panel {
+      width: 100%;
+      object-fit: contain;
     }
   }
 </style>

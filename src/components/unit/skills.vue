@@ -60,10 +60,16 @@ import UiBadge from '@/ui/badge.vue'
 
   .container {
     width: 100%;
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+
+  @media all and (max-width: 768px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
 </style>

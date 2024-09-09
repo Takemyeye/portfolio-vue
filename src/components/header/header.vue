@@ -64,4 +64,10 @@
     background-color: var(--color-000);
     width: 100%;
   }
+
+  @media all and ( max-width: 768px ) {
+    header {
+      gap: 5%;
+    }
+  }
 </style>
