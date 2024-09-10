@@ -1,12 +1,12 @@
 <template>
   <div class="topBar">
     <div class="left-panel">
-        <div class="experience">
-          <h5>1.5 years of experience</h5>
-        </div>
-        <h1>Oleh Bratok</h1>
-        <h3>Full Stack Developer</h3>
+      <div class="experience">
+        <h5>1.5 years of experience</h5>
       </div>
+      <h1>Oleh Bratok</h1>
+      <h3>Full Stack Developer</h3>
+    </div>
     <div class="right-panel">
       <img src="img/abstract.png" alt="">
       <UiButton 
@@ -14,6 +14,7 @@
         :hoverColor="`hsl(210, 100%, 66%)`" 
         :hoverBgColor="`hsl(214, 59%, 15%)`" 
         :showIcon="false"
+        @click="downloadCV"
       />
     </div>
   </div>
@@ -22,12 +23,22 @@
 <script>
 import UiButton from '@/ui/btn.vue'
 
-  export default {
-    name: 'TopBar',
-    components: {
-      UiButton
+export default {
+  name: 'TopBar',
+  components: {
+    UiButton
+  },
+  methods: {
+    downloadCV() {
+      const cvUrl = 'cv/Oleh_Bratok_CV.pdf';
+      
+      const link = document.createElement('a');
+      link.href = cvUrl;
+      link.download = 'Oleh_Bratok_CV.pdf';
+      link.click();
     }
   }
+}
 </script>
 
 <style scoped>
