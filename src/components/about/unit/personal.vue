@@ -24,7 +24,7 @@
       </div>
       <div class="text">       
         Italian:  
-        <UiBadge styleBadge="badge" skill="high level"/>
+        <UiBadge styleBadge="badge" skill="high"/>
       </div>
       <div class="text">       
         English: 
@@ -75,5 +75,18 @@ import UiBadge from '@/ui/badge.vue';
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+  }
+
+  @media all and ( max-width: 1024px ) {
+    .text {
+      width: 100%;
+    }
+  }
+
+  @media all and ( max-width: 768px ) {
+    .personal {
+      width: 100%;
+      align-items: center;
+    }
   }
 </style>

@@ -6,10 +6,12 @@
       <PersonalAttributes/>
     </div>
     <WorkExperiene/>
+    <FooterPanel/>
   </main>
 </template>
 
 <script>
+import FooterPanel from '@/components/footer/footer.vue';
 import PersonalAttributes from './unit/personal.vue';
 import WorkExperiene from './unit/workExperiene.vue';
 import HeaderPanel from '../header/header.vue';
@@ -22,6 +24,7 @@ import SummaryPanel from './unit/summary.vue';
       WorkExperiene,
       SummaryPanel,
       HeaderPanel,
+      FooterPanel,
     }
   }
 </script>
@@ -45,5 +48,11 @@ import SummaryPanel from './unit/summary.vue';
     align-items: start;
     justify-content: space-between;
     flex-direction: row;
+  }
+
+  @media all and ( max-width: 768px ) {
+    .container {
+        flex-direction: column;
+    }
   }
 </style>

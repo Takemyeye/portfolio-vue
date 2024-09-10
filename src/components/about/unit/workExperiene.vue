@@ -62,4 +62,18 @@ import ExperienceData from './../../unit/component/experience.vue';
   align-items: start;
   gap: 8rem;
 }
+
+@media all and ( max-width: 1024px ) {
+    .container {
+      gap: 4rem;
+    }
+  }
+
+  @media all and ( max-width: 1024px ) {
+    .container {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 4rem;
+    }
+  }
+
 </style>

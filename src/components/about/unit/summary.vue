@@ -59,4 +59,11 @@ import ContainerBlock from './component/container.vue'
     word-spacing: 0.6em;
   }
 
+  @media all and ( max-width: 768px ) {
+    .summary {
+      width: 100%;
+      align-items: center;
+    }
+  }
+
 </style>
