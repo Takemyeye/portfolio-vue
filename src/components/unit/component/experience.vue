@@ -39,6 +39,9 @@
     align-items: start;
     justify-content: center;
     flex-direction: column;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
     gap: 8px;
   }
   h5, h4 {

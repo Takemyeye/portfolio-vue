@@ -63,8 +63,13 @@ export default {
     gap: 1rem;
   }
 
+  .left-panel {
+    animation: toRight 1.5s ease forwards;
+  }
+
   .right-panel {
     align-items: center;
+    animation: toLeft 1.5s ease forwards;
   }
 
   .experience {
@@ -121,6 +126,7 @@ export default {
     .right-panel {
       width: 100%;
       object-fit: contain;
+      animation: toTop 1.5s ease forwards;
     }
   }
 </style>

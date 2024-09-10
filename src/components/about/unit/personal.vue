@@ -56,6 +56,7 @@ import UiBadge from '@/ui/badge.vue';
     justify-content: start;
     flex-direction: column;
     gap: 2rem;
+    animation: toLeft 1.5s ease forwards;
   }
 
   span {
@@ -88,6 +89,7 @@ import UiBadge from '@/ui/badge.vue';
     .personal {
       width: 100%;
       align-items: center;
+      animation: toTop 1.5s ease forwards;
     }
   }
 </style>

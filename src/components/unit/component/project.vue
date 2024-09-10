@@ -60,6 +60,9 @@ import UiButton from '@/ui/btn.vue'
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
   }
 
   .project {

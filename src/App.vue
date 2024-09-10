@@ -90,6 +90,20 @@ h3 {
   background: transparent;
 }
 
+@keyframes apper {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  40% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
 @keyframes opacity {
   0% {
     opacity: 0;
@@ -123,6 +137,27 @@ h3 {
     opacity: 1;
     transform: translateY(0);
   }
+}
 
+@keyframes toRight {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes toLeft {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 </style>
