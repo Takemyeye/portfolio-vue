@@ -1,9 +1,11 @@
 <template>
   <header>
-    <div class="left-header">
-      <h3><font-awesome-icon icon="code" /></h3>
-      <h3>Oleh Bratok</h3>
-    </div>
+    <router-link to="/">
+      <div class="left-header">
+        <h3><font-awesome-icon icon="code" /></h3>
+        <h3>Oleh Bratok</h3>
+      </div>
+    </router-link>
     <div class="right-header">
       <router-link to="/about">
         <h5>About</h5>

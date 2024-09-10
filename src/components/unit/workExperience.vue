@@ -12,7 +12,11 @@
       :text="`Developed and maintained complex web applications using React, Next.js, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions.`"
     />
     <router-link to="/about">
-      <UiButton text="View More" :hoverColor="`hsl(275, 80%, 71%)`" :hoverBgColor="`hsl(281, 38%, 16%)`" />
+      <UiButton 
+        text="View More" 
+        :hoverColor="`hsl(275, 80%, 71%)`" 
+        :hoverBgColor="`hsl(281, 38%, 16%)`" 
+      />
     </router-link>
   </div>
 </template>
