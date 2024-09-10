@@ -10,7 +10,9 @@
       <router-link to="/about">
         <h5>About</h5>
       </router-link>
-      <h5>Projects</h5>
+      <router-link to="/projects">
+        <h5>Projects</h5>
+      </router-link>
       <h5 @click="toggleDropPanel" style="cursor: pointer;">
         Contact
         <DropPanel v-if="showDropPanel"/>
