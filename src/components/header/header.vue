@@ -11,15 +11,33 @@
         <h5>About</h5>
       </router-link>
       <h5>Projects</h5>
-      <h5>Contact</h5>
+      <h5 @click="toggleDropPanel" style="cursor: pointer;">
+        Contact
+        <DropPanel v-if="showDropPanel"/>
+      </h5>
     </div>
   </header>
 </template>
 
 <script>
-  export default {
-    name: 'HeaderPanel'
+import DropPanel from './dropPanel.vue';
+
+export default {
+  name: 'HeaderPanel',
+  components: {
+    DropPanel
+  },
+  data() {
+    return {
+      showDropPanel: false
+    }
+  },
+  methods: {
+    toggleDropPanel() {
+      this.showDropPanel = !this.showDropPanel;
+    }
   }
+}
 </script>
 
 <style scoped>
@@ -28,7 +46,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 10vh;
+    padding: 1.5rem 0;
     display: flex;
     align-items: center;
     justify-content: space-around;

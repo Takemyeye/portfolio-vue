@@ -75,6 +75,7 @@ import UiBadge from '@/ui/badge.vue';
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    font-size: clamp(12px, 2vw, 15px);
   }
 
   @media all and ( max-width: 1024px ) {

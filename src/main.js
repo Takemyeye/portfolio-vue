@@ -8,7 +8,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { 
   faArrowRight, faBrain, faDatabase, faServer, 
   faCodeBranch, faCodeCommit, faCloud, 
-  faCode, 
+  faCode,
+  faEnvelope,
+  faPhone, 
 } from '@fortawesome/free-solid-svg-icons';
 
 import { 
@@ -18,7 +20,7 @@ import {
 library.add(
   faArrowRight, faBrain, faDatabase, faServer, 
   faCodeBranch, faCodeCommit, faCloud, faCode, 
-
+  faEnvelope, faPhone,
   faGithub, faInstagram, faLinkedin, faTelegram, 
 );
 
