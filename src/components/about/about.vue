@@ -5,11 +5,13 @@
       <SummaryPanel/>
       <PersonalAttributes/>
     </div>
+    <WorkExperiene/>
   </main>
 </template>
 
 <script>
 import PersonalAttributes from './unit/personal.vue';
+import WorkExperiene from './unit/workExperiene.vue';
 import HeaderPanel from '../header/header.vue';
 import SummaryPanel from './unit/summary.vue';
 
@@ -17,6 +19,7 @@ import SummaryPanel from './unit/summary.vue';
     name: 'AboutPage',
     components: {
       PersonalAttributes,
+      WorkExperiene,
       SummaryPanel,
       HeaderPanel,
     }

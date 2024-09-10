@@ -2,7 +2,7 @@
   <div class="experience">
     <h5>{{ data }}</h5>
     <h3>{{ position }}</h3>
-    <h4>{{ text }}</h4>
+    <h4 :style="h4">{{ text }}</h4>
   </div>
 </template>
 
@@ -24,6 +24,10 @@
         type: String,
         required: true,
         default: ''
+      },
+      h4: {
+        type: String,
+        required: false,
       }
     }
   }
