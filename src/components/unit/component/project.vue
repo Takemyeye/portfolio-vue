@@ -4,13 +4,13 @@
     <div class="text">
       <h3>{{ text }}</h3>
       <h5>{{ description }}</h5>
-      <router-link :to="link">
+      <a :href="link">
         <UiButton 
           :showIcon="showAroow"
           :text="btn" 
           :hoverColor="`hsl(358, 100%, 69%)`" 
           :hoverBgColor="`hsl(357, 46%, 16%)`" />
-      </router-link>
+      </a>
     </div>
   </div>
 </template>
