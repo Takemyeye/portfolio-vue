@@ -5,7 +5,7 @@
       <ProjectUnit 
         :showAroow="false"
         :btn="`Go to Website`"
-        :link="`https://github.com/Takemyeye/SS-Vue`"
+        :link="`https://soulswap.netlify.app/`"
         :img="`img/soulSwap.png`"
         text="Soul Swap" 
         description="A full-stack web app using Vue, Vuex, and Express.js for a high-performance online store, offering a curated selection of unique artworks tailored to individual tastes."

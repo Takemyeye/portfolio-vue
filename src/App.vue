@@ -44,7 +44,6 @@ html,body {
   box-shadow: 0 -100vh 0 100vh var(--color-black), 0 0 15px 5px var(--color-000);
 }
 
-
 h1 {
   font-size: clamp(20px, 2vw, 40px);
   color: var(--color-000);
