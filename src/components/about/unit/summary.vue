@@ -45,6 +45,7 @@ import ContainerBlock from './component/container.vue'
     align-items: start;
     justify-content: center;
     flex-direction: column;
+    animation: toRight 1.5s ease forwards;
     gap: 2rem;
   }
 
