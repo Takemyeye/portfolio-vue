@@ -8,7 +8,7 @@
       <h3>Full Stack Developer</h3>
     </div>
     <div class="right-panel">
-      <img src="img/abstract.png" alt="">
+      <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-vue-d6eb1.appspot.com/o/abstract.png?alt=media&token=17e4f270-d1e8-4ce5-8d83-f7e95029b960" alt="">
       <UiButton 
         text="Download CV" 
         :hoverColor="`hsl(210, 100%, 66%)`" 

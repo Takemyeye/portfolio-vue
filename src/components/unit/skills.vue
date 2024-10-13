@@ -23,9 +23,10 @@
         <UiBadge :styleBadge="`badge`" skill="PHP" />
       </UiBlock>
       <UiBlock :badge="`badge3`" text="Databases">
+        <UiBadge :styleBadge="`badge`" skill="PostgreSQL" />
         <UiBadge :styleBadge="`badge`" skill="MongoDB" />
         <UiBadge :styleBadge="`badge`" skill="MySQL" />
-        <UiBadge :styleBadge="`badge`" skill="PostgreSQL" />
+        <UiBadge :styleBadge="`badge`" skill="Redis" />
       </UiBlock>
       <UiBlock :badge="`badge4`" text="Tools">
         <UiBadge :styleBadge="`badge`" skill="Git" />
