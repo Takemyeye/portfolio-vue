@@ -23,7 +23,6 @@
         <UiBadge :styleBadge="`badge`" skill="Node.js" />
         <UiBadge :styleBadge="`badge`" skill="Express" />
         <UiBadge :styleBadge="`badge`" skill="Next.js" />
-        <UiBadge :styleBadge="`badge`" skill="TypeScript" />
         <UiBadge :styleBadge="`badge`" skill="Python" />
         <UiBadge :styleBadge="`badge`" skill="Django" />
         <UiBadge :styleBadge="`badge`" skill="PHP" />

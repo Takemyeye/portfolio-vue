@@ -2,7 +2,7 @@
   <div class="topBar">
     <div class="left-panel">
       <div class="experience">
-        <h5>2 years of experience</h5>
+        <h5>1.5 years of experience</h5>
       </div>
       <h1>Oleh Bratok</h1>
       <h3>Full Stack Developer</h3>

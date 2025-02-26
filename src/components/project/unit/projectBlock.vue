@@ -1,11 +1,14 @@
 <template>
   <main>
-    <h1>My Projects</h1>
+    <div class="text">
+      <h1>My Projects</h1>
+      <h5>My personal project that not coperted from DNA</h5>
+    </div>
     <div class="containerProject">
       <ProjectUnit 
         :showAroow="false"
         :btn="`Go to Website`"
-        :link="`https://ss-vue.vercel.app/`"
+        :link="`https://soulswap.store/`"
         :img="`https://firebasestorage.googleapis.com/v0/b/portfolio-vue-d6eb1.appspot.com/o/download.png?alt=media&token=ef06da97-15eb-42c8-8e06-ee3b836c983e`"
         text="Soul Swap" 
         description="A full-stack web app using Vue, Vuex, and Express.js for a high-performance online store, offering a curated selection of unique artworks tailored to individual tastes."
@@ -59,6 +62,15 @@ import ProjectUnit from '@/components/unit/component/project.vue';
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .containerProject {

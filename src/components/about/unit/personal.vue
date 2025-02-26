@@ -13,20 +13,22 @@
         It features an intuitive interface and user-friendly experience, designed to cater to fans and collectors alike.
       </h5>
     </ContainerBlock>
-    <ContainerBlock badge="badge3" text="Languages">
-      <div class="text">       
+    <ContainerBlock 
+      badge="badge3" 
+      text="Languages">
+      <div class="text" style=" border-bottom: 1px solid rgba(255, 255, 255, 0.100);">       
         Ukrainian: 
         <UiBadge styleBadge="badge" skill="native"/>
       </div>
-      <div class="text">       
+      <div class="text" style=" border-bottom: 1px solid rgba(255, 255, 255, 0.100);">       
         Russian: 
         <UiBadge styleBadge="badge" skill="native"/>
       </div>
-      <div class="text">       
+      <div class="text" style=" border-bottom: 1px solid rgba(255, 255, 255, 0.100);">       
         Italian:  
         <UiBadge styleBadge="badge" skill="high"/>
       </div>
-      <div class="text">       
+      <div class="text" style=" border-bottom: 1px solid rgba(255, 255, 255, 0.100);">       
         English: 
         <UiBadge styleBadge="badge" skill="intermediate"/>
       </div>
@@ -68,15 +70,17 @@ import UiBadge from '@/ui/badge.vue';
     color: var(--color-002);
     text-wrap: balance;
     word-spacing: 0.6em;
+    padding-bottom: 2px;
   }
 
   .text {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
     font-size: clamp(12px, 2vw, 15px);
+    border-radius: 1rem;
   }
 
   @media all and ( max-width: 1024px ) {
