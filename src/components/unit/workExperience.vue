@@ -3,9 +3,9 @@
     <h1>Work Experience</h1>
     <ExperienceData
       style="animation: none;"
-      :data="`2023 - Present`"
+      :data="`2023 - 2025`"
       :position="`Freelance Full Stack Developer`"
-      :text="`Worked on various client projects, building web applications and APIs using a range of technologies, including Vue, Nuxt.js, PHP, and MySQL.`"
+      :text="`Worked on various client projects, building web applications and APIs using a range of technologies, including Vue, Nuxt.js, React, Html, Node.js, Flask, TypeScript, PHP, and MySQL.`"
     />
     <ExperienceData 
       style="animation: none;"

@@ -26,14 +26,13 @@
         <ExperienceData
           style="text-wrap: balance; word-spacing: 0.6em;"
           :h4="`font-size: clamp(12px, 2vw, 15px);`"
-          :data="`December 2024 - March 2025`"
+          :data="`December 2024 - Aprile 2025`"
           :position="`Full Stack Developer at MeWay`"
           :text="`Worked on web and mobile development, gaining experience in building scalable solutions. 
-          Improved TypeScript skills, mastered TypeORM, and expanded backend expertise with Python and Django. 
+          Improved TypeScript skills, mastered TypeORM, and expanded backend expertise with Python and Flask. 
           Developed APIs, optimized databases, and worked with FFmpeg for audio processing and radio tower integration. 
           Became a key team member by solving complex tasks efficiently and adapting well to both clients and colleagues.`"
         />
-
 
     </div>
   </div>
