@@ -29,14 +29,6 @@
         text="Impactium" 
         description="A web app built using Next.js, PostgreSQL, and Prisma. The company organizes Dota 2 tournaments, offering a platform for teams and players to compete in challenging events."
       />
-      <ProjectUnit 
-        :showAroow="false"
-        :btn="`Go to Website`"
-        :link="`https://belance-compress.netlify.app/`"
-        :img="`https://firebasestorage.googleapis.com/v0/b/portfolio-vue-d6eb1.appspot.com/o/compress.png?alt=media&token=9fd41a69-8e58-4b4a-a97a-8eb74a574ecc`"
-        text="Belance-Compress" 
-        description="A web app designed by Belance for compressing photos and videos. It allows users to easily reduce file sizes without losing quality, optimizing media for faster sharing and storage."
-      />
     </div>
   </main>
 </template>
