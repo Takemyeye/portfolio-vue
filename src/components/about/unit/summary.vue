@@ -57,7 +57,7 @@ import ContainerBlock from './component/container.vue'
     font-weight: 400;
     color: var(--color-002);
     text-wrap: balance;
-    word-spacing: 0.6em;
+    word-spacing: 0.3em;
   }
 
   @media all and ( max-width: 768px ) {

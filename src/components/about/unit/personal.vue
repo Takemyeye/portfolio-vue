@@ -69,7 +69,7 @@ import UiBadge from '@/ui/badge.vue';
     font-weight: 400;
     color: var(--color-002);
     text-wrap: balance;
-    word-spacing: 0.6em;
+    word-spacing: 0.3em;
     padding-bottom: 8px;
   }
 

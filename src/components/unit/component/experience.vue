@@ -42,11 +42,14 @@
     animation: apper linear;
     animation-timeline: view();
     animation-range: entry 0% cover 25%;
+    text-wrap:balance; 
+    word-spacing: 0.3em;
     gap: 8px;
   }
   h5, h4 {
     font-weight: 300;
     color: var(--color-002);
+    font-size: clamp(12px, 2vw, 15px);
   }
   h3 {
     font-weight: 600;
