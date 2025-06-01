@@ -24,10 +24,6 @@
         <a href="https://www.fermifrascati.edu.it/" style="color: hsl(358, 100%, 69%);">I.T.T Enrico Fermi</a>, 
         where I specialized in Informatics and Cybersecurity. 
         My education provided me with a solid foundation in both areas, equipping me with the skills necessary to excel in the ever-evolving field of technology and information security.
-        <br><br>
-        I also studied at 
-        <a href="https://www.univ.kiev.ua/en/" style="color: hsl(358, 100%, 69%);">Taras Shevchenko National University of Kyiv</a>, 
-        where I further strengthened my academic background and technical capabilities in the field of computer science.
       </h5>
     </ContainerBlock>
   </div>
