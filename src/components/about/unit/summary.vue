@@ -14,7 +14,7 @@
     </ContainerBlock>
     <ContainerBlock badge="badge2" text="Additional Information">
       <h5>
-        Fast-learning and adaptable Fullstack Developer with a strong sense of initiative.  
+        Fast-learning and adaptable Developer with a strong sense of initiative.  
         I thrive in dynamic environments, take ownership of tasks, and consistently help teams grow in both performance and collaboration.  
         Committed to continuous learning and bringing value to every project I contribute to.
       </h5>
