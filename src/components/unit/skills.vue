@@ -25,6 +25,7 @@
         <UiBadge :styleBadge="`badge`" skill="Express" />
         <UiBadge :styleBadge="`badge`" skill="Bull.js" />
         <UiBadge :styleBadge="`badge`" skill="Python" />
+        <UiBadge :styleBadge="`badge`" skill="CI/CD" />
         <UiBadge :styleBadge="`badge`" skill="Flask" />
         <UiBadge :styleBadge="`badge`" skill="PHP" />
       </UiBlock>

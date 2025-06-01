@@ -3,21 +3,15 @@
     <h1>Work Experience</h1>
     <div class="container">
       <ExperienceData 
-        :data="`June 2023 - May 2024`"
+        :data="`June 2023 - November 2024`"
         :position="`Frontend Developer at DataCode srl`"
-        :text="`Designed and maintained high-performance web applications using React.js and Node.js. Focused on optimizing UI responsiveness and load time. Leveraged TypeScript to build modular and reliable code. Collaborated with cross-functional teams, contributed to architectural decisions, and actively mentored junior developers. Played a key role in improving frontend workflows and ensuring browser compatibility.`"
+        :text="`Designed and maintained high-performance web applications using React.js and Node.js. Improved frontend productivity by streamlining component architecture and workflows. Optimized image and media loading strategies, reducing load times by up to 40% and enhancing overall user experience. Leveraged TypeScript to build scalable and maintainable code. Contributed to system architecture and mentored junior developers while ensuring full cross-browser compatibility.`"
       />
       
       <ExperienceData
         :data="`2022 - 2025`"
         :position="`Freelance Full-Stack Developer`"
         :text="`Delivered full-cycle web solutions for various clients using React.js, Vue.js, Nuxt.js, TypeScript, PHP, and MongoDB. Designed scalable architectures and developed responsive, maintainable interfaces. Took full ownership of projects, working closely with clients to understand their needs, deploy stable applications, and provide long-term support. Known for adaptability and fast integration into new domains.`"
-      />
-      
-      <ExperienceData
-        :data="`March 2024 - August 2024`"
-        :position="`Full-Stack Developer at Impactium`"
-        :text="`Led UI development efforts, creating elegant, responsive interfaces aligned with UX best practices. Built reusable components to accelerate development and simplify maintenance. Enhanced project stability through consistent use of TypeScript. Contributed to improved team productivity through proactive communication and attention to detail.`"
       />
       
       <ExperienceData

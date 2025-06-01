@@ -6,7 +6,6 @@
       I am Oleh Bratok, born in 2005.  
       I have over 2 years of commercial experience as a Fullstack Developer, including roles at  
       <a href="https://datacode.it/home" style="color: hsl(210, 100%, 66%);">DataCode srl</a>,  
-      <a href="https://Impactium.fun" style="color: hsl(210, 100%, 66%);">Impactium</a>,  
       <a href="https://meway.it/en/" style="color: hsl(210, 100%, 66%);">MeWay</a> and various freelance projects.  
       During this time, I developed and delivered a range of web applications, such as online shops, AI-powered tools, and scalable APIs.  
       I’m passionate about clean, efficient code and continuously strive to learn, adapt, and contribute to high-performing teams.
