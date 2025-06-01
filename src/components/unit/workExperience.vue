@@ -4,13 +4,13 @@
     <ExperienceData
       style="animation: none;"
       :data="`2023 - 2025`"
-      :position="`Freelance Full Stack Developer`"
+      :position="`Freelance Full-Stack Developer`"
       :text="`Worked on various client projects, building web applications and APIs using a range of technologies, including Vue, Nuxt.js, React, Html, Node.js, Flask, TypeScript, PHP, and MySQL.`"
     />
     <ExperienceData 
       style="animation: none;"
       :data="`December 2023 - May 2024`"
-      :position="`Full Stack Developer at DataCode srl`"
+      :position="`Full-Stack  Developer at DataCode srl`"
       :text="`Developed and maintained complex web applications using React, Next.js, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions.`"
     />
     <router-link to="/about">

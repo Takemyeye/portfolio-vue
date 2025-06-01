@@ -16,17 +16,18 @@ import WorkExperience from './workExperience.vue';
 import FeaturedBlock from './featuredBlock.vue';
 import SkillsBlock from './skills.vue';
 import TopBar from './topBar.vue';
-  export default {
-    name: 'HomePage',
-    components: {
-      WorkExperience,
-      FeaturedBlock,
-      SkillsBlock,
-      HeaderPanel,
-      FooterPanel,
-      TopBar,
-    },
-  }
+
+export default {
+  name: 'HomePage',
+  components: {
+    WorkExperience,
+    FeaturedBlock,
+    SkillsBlock,
+    HeaderPanel,
+    FooterPanel,
+    TopBar,
+  },
+}
 </script>
 
 <style scoped>

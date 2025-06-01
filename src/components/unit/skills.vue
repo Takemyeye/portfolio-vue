@@ -4,14 +4,13 @@
     <div class="container">
       <UiBlock :badge="`badge1`" text="Frontend">
         <UiBadge :styleBadge="`badge`" skill="React" />
-        <UiBadge :styleBadge="`badge`" skill="Next.js" />
         <UiBadge :styleBadge="`badge`" skill="Vue" />
         <UiBadge :styleBadge="`badge`" skill="Redux" />
         <UiBadge :styleBadge="`badge`" skill="Vuex" />
         <UiBadge :styleBadge="`badge`" skill="TypeScript" />
         <UiBadge :styleBadge="`badge`" skill="JavaScript" />
-        <UiBadge :styleBadge="`badge`" skill="Flutter" />
-        <UiBadge :styleBadge="`badge`" skill="Dart" />
+        <UiBadge :styleBadge="`badge`" skill="jQuery" />
+        <UiBadge :styleBadge="`badge`" skill="Chart.js" />
         <UiBadge :styleBadge="`badge`" skill="HTML" />
         <UiBadge :styleBadge="`badge`" skill="CSS" />
         <UiBadge :styleBadge="`badge`" skill="SCSS" />
@@ -35,7 +34,7 @@
         <UiBadge :styleBadge="`badge`" skill="MySQL" />
         <UiBadge :styleBadge="`badge`" skill="MongoDB" />
         <UiBadge :styleBadge="`badge`" skill="SQLite" />
-        <UiBadge :styleBadge="`badge`" skill="CockroachDB" />
+        <UiBadge :styleBadge="`badge`" skill="ORM" />
         <UiBadge :styleBadge="`badge`" skill="Prisma" />
         <UiBadge :styleBadge="`badge`" skill="TypeORM" />
         <UiBadge :styleBadge="`badge`" skill="Redis" />

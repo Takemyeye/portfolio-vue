@@ -2,7 +2,7 @@
   <div class="topBar">
     <div class="left-panel">
       <div class="experience">
-        <h5>2 years of experience</h5>
+        <h5>Over 2 years of experience</h5>
       </div>
       <h1>Oleh Bratok</h1>
       <h3>Full Stack Developer</h3>
@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     downloadCV() {
-      const cvUrl = 'cv/Oleh_Bratok_CV_ENG.pdf';
+      const cvUrl = 'cv/Oleh_Bratok_CV.pdf';
       
       const link = document.createElement('a');
       link.href = cvUrl;
@@ -45,7 +45,6 @@ export default {
 
   .topBar {
     width: 80%;
-    min-height: 40vh;
     padding: 5rem 0;
     display: flex;
     align-items: center;
