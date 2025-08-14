@@ -3,14 +3,14 @@
     <h1>Work Experience</h1>
     <ExperienceData
       style="animation: none;"
-      :data="`2023 - 2025`"
-      :position="`Freelance Full-Stack Developer`"
-      :text="`Worked on various client projects, building web applications and APIs using a range of technologies, including Vue, Nuxt.js, React, Html, Node.js, Flask, TypeScript, PHP, and MySQL.`"
+      :data="`From 03.2022 to 09.2022`"
+      :position="`Full-Stack at Impactium`"
+      :text="`Built high-performance landing pages and SPA using modern stacks Refactored legacy codebases to improve scalability Adapted and extended existing solutions to meet new business needs`"
     />
     <ExperienceData 
       style="animation: none;"
-      :data="`December 2023 - May 2024`"
-      :position="`Full-Stack  Developer at DataCode srl`"
+      :data="`From 05.2024 to 05.2025`"
+      :position="`Full-Stack at MeWay`"
       :text="`Developed and maintained complex web applications using React, Next.js, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions.`"
     />
     <router-link to="/about">

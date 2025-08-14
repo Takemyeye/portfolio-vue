@@ -3,9 +3,10 @@
     <h1>About Me..<span>.</span></h1>
     <ContainerBlock badge="badge1" text="summary">
     <h5>
-      I am Oleh Bratok, born in 2005.  
-      I have over 2 years of commercial experience as a Fullstack Developer, including roles at  
-      <a href="https://datacode.it/home" style="color: hsl(210, 100%, 66%);">DataCode srl</a>,  
+      I am Oleh Bratok.
+      I have over 3 years of commercial experience as a Fullstack Developer, including roles at  
+      <a href="https://impactium.dev" style="color: hsl(210, 100%, 66%);">Impactium</a>, 
+      <a href="https://datacode.it/home" style="color: hsl(210, 100%, 66%);">DataCode srl</a>, 
       <a href="https://meway.it/en/" style="color: hsl(210, 100%, 66%);">MeWay</a> and various freelance projects.  
       During this time, I developed and delivered a range of web applications, such as online shops, AI-powered tools, and scalable APIs.  
       I’m passionate about clean, efficient code and continuously strive to learn, adapt, and contribute to high-performing teams.

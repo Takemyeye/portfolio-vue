@@ -4,6 +4,7 @@
     <div class="container">
       <UiBlock :badge="`badge1`" text="Frontend">
         <UiBadge :styleBadge="`badge`" skill="React" />
+        <UiBadge :styleBadge="`badge`" skill="Next" />
         <UiBadge :styleBadge="`badge`" skill="Vue" />
         <UiBadge :styleBadge="`badge`" skill="Redux" />
         <UiBadge :styleBadge="`badge`" skill="Vuex" />
@@ -23,6 +24,7 @@
         <UiBadge :styleBadge="`badge`" skill="TypeScript" />
         <UiBadge :styleBadge="`badge`" skill="Node.js" />
         <UiBadge :styleBadge="`badge`" skill="Express" />
+        <UiBadge :styleBadge="`badge`" skill="Nest.js" />
         <UiBadge :styleBadge="`badge`" skill="Bull.js" />
         <UiBadge :styleBadge="`badge`" skill="Python" />
         <UiBadge :styleBadge="`badge`" skill="CI/CD" />
@@ -47,7 +49,7 @@
         <UiBadge :styleBadge="`badge`" skill="GitHub" />
         <UiBadge :styleBadge="`badge`" skill="VSCode" />
         <UiBadge :styleBadge="`badge`" skill="Postman" />
-        <UiBadge :styleBadge="`badge`" skill="Emulator" />
+        <UiBadge :styleBadge="`badge`" skill="Vercel" />
         <UiBadge :styleBadge="`badge`" skill="Docker" />
       </UiBlock>
     </div>
