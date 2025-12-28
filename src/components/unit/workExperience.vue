@@ -3,15 +3,15 @@
     <h1>Work Experience</h1>
     <ExperienceData
       style="animation: none;"
-      :data="`From 03.2022 to 09.2022`"
+      :data="`From 02.2022 to 09.2022`"
       :position="`Full-Stack at Impactium`"
       :text="`Built high-performance landing pages and SPA using modern stacks Refactored legacy codebases to improve scalability Adapted and extended existing solutions to meet new business needs`"
     />
     <ExperienceData 
       style="animation: none;"
-      :data="`From 05.2024 to 05.2025`"
-      :position="`Full-Stack at MeWay`"
-      :text="`Developed and maintained complex web applications using React, Next.js, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions.`"
+      :data="`From 01.2025 to 12.2025`"
+      :position="`Frontend at Mentat`"
+      :text="`Worked as a Frontend Developer on the Gulp web UI — a React and TypeScript application. Developed and maintained UI components using Shadcn/UI, implemented user authentication screens, session management, and operation workflows. Focused on creating responsive, modular, and high-performance interfaces, integrating with backend APIs, and improving overall usability and developer experience.`"
     />
     <router-link to="/about">
       <UiButton 

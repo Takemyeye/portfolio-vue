@@ -4,17 +4,18 @@
     <ContainerBlock badge="badge1" text="summary">
     <h5>
       I am Oleh Bratok.
-      I have over 3 years of commercial experience as a Fullstack Developer, including roles at  
+      I have over 4 years of commercial experience as a Fullstack Developer, including roles at  
       <a href="https://impactium.dev" style="color: hsl(210, 100%, 66%);">Impactium</a>, 
       <a href="https://datacode.it/home" style="color: hsl(210, 100%, 66%);">DataCode srl</a>, 
-      <a href="https://meway.it/en/" style="color: hsl(210, 100%, 66%);">MeWay</a> and various freelance projects.  
+      <a href="https://meway.it/en/" style="color: hsl(210, 100%, 66%);">MeWay</a>,
+      <a href="https://mentat.is/" style="color: hsl(210, 100%, 66%);">Mentat</a> and various freelance projects.  
       During this time, I developed and delivered a range of web applications, such as online shops, AI-powered tools, and scalable APIs.  
       I’m passionate about clean, efficient code and continuously strive to learn, adapt, and contribute to high-performing teams.
     </h5>
     </ContainerBlock>
     <ContainerBlock badge="badge2" text="Additional Information">
       <h5>
-        Fast-learning and adaptable Developer with a strong sense of initiative.  
+        Adaptable Developer with a strong sense of initiative.  
         I thrive in dynamic environments, take ownership of tasks, and consistently help teams grow in both performance and collaboration.  
         Committed to continuous learning and bringing value to every project I contribute to.
       </h5>

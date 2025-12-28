@@ -8,7 +8,7 @@
         The service includes options for personalized design and team selection, making it a flexible solution for various website requirements.
       </h5>
       <h5>
-        <a href="#" style="color: hsl(210, 100%, 66%);">Soul Swap:</a>
+        <a href="https://soulswap.shop/" style="color: hsl(210, 100%, 66%);">Soul Swap:</a>
         This project is an online store dedicated to manga and anime characters. 
         It features an intuitive interface and user-friendly experience, designed to cater to fans and collectors alike.
       </h5>
