@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     downloadCV() {
-      const cvUrl = 'cv/Oleh_Bratok_CV_2.pdf';
+      const cvUrl = 'cv/Cv_OB_check.pdf';
       
       const link = document.createElement('a');
       link.href = cvUrl;
