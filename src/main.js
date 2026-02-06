@@ -8,9 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { 
   faArrowRight, faBrain, faDatabase, faServer, 
   faCodeBranch, faCodeCommit, faCloud, 
-  faCode,
-  faEnvelope,
-  faPhone, 
+  faCode, faEnvelope, faPhone, 
 } from '@fortawesome/free-solid-svg-icons';
 
 import { 
@@ -18,10 +16,11 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 library.add(
-  faArrowRight, faBrain, faDatabase, faServer, 
-  faCodeBranch, faCodeCommit, faCloud, faCode, 
-  faEnvelope, faPhone,
-  faGithub, faInstagram, faLinkedin, faTelegram, 
+  faArrowRight, faBrain, faDatabase,
+  faServer, faCodeBranch, faCodeCommit, 
+  faCode, faEnvelope, faPhone,
+  faGithub, faInstagram, faLinkedin,
+  faTelegram, faCloud,
 );
 
 const app = createApp(App);
