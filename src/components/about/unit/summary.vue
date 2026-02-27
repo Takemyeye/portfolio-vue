@@ -4,7 +4,7 @@
     <ContainerBlock badge="badge1" text="summary">
     <h5>
       I am Oleh Bratok.
-      I have over 4 years of commercial experience as a Fullstack Developer, including roles at  
+      I have over 3 years of commercial experience as a Fullstack Developer, including roles at  
       <a href="https://impactium.dev" style="color: hsl(210, 100%, 66%);">Impactium</a>, 
       <a href="https://datacode.it/home" style="color: hsl(210, 100%, 66%);">DataCode srl</a>, 
       <a href="https://meway.it/en/" style="color: hsl(210, 100%, 66%);">MeWay</a>,
